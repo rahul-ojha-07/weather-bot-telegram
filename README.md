@@ -82,13 +82,13 @@ Java
 ## Screenshots
 
 <p align="center">
-  <img src="./images/1.jpeg" width="250" >
-  <img src="./images/2.jpg" width="250" >
-  <img src="./images/3.jpg" width="250" >
+  <img src="./images/image1.jpeg" width="250" >
+  <img src="./images/image2.jpg" width="250" >
+  <img src="./images/image3.jpg" width="250" >
   <br>
-  <img src="./images/4.jpg" width="250" >
-  <img src="./images/5.jpg" width="250" >
-  <img src="./images/6.jpg" width="250" >
+  <img src="./images/image4.jpg" width="250" >
+  <img src="./images/image5.jpg" width="250" >
+  <img src="./images/image6.jpg" width="250" >
 </p>
 
 
