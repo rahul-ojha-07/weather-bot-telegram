@@ -20,8 +20,6 @@ public class WeatherBotApplication {
         } catch (TelegramApiException e) {
             LOGGER.error("Error while initializing bot! " + e.getMessage());
             e.printStackTrace();
-        } catch (Exception e) {
-            // TODO: handle exception
         }
     }
 

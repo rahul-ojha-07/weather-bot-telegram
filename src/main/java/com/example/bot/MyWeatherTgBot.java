@@ -151,11 +151,6 @@ public class MyWeatherTgBot extends TelegramLongPollingCommandBot {
         return message;
     }
 
-    /* operations to be executed not in response to an update */
-    public void sendNotification() {
-        // TODO: do stuff for example send a notification to some user
-    }
-
     @Override
     public String getBotUsername() {
         return BOT_NAME;
