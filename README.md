@@ -75,10 +75,6 @@ To run this project, you will need to add the following environment variables to
 `Note: you can use almost any DataBase(h2,postgres,mysql,etc) in some cases you may need to change the SQL Queries in DBUser.java to match your DataBase`
 
 
-
-## Technologies Used
-
-Java
 ## Screenshots
 
 <p align="center">
