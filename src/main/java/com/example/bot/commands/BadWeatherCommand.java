@@ -16,7 +16,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.bot.commands.LocateCommand.getKeyboardLoc;
+import static com.example.bot.commands.LocationCommand.getKeyboardLoc;
 import static com.example.bot.commands.WeatherCommand.getKeyboardWeatherNow;
 
 public class BadWeatherCommand extends BotCommand {
@@ -24,7 +24,7 @@ public class BadWeatherCommand extends BotCommand {
 
     public BadWeatherCommand() {
         super("bad_weather",
-                "determines the nearest bad weather (rain, snow, strong wind, etc.) by your coordinates \n");
+                "determines the nearest bad weather (rain, snow, strong wind, etc.) for your location \n");
     }
 
     public static SendMessage getMessageRemind(Long user_id, Long chat_id) {

@@ -25,10 +25,10 @@ import static com.example.bot.commands.BadWeatherCommand.getKeyboardWorseWeather
 import static com.example.bot.commands.WeatherCommand.getKeyboardWeatherNow;
 
 
-public class LocateCommand extends BotCommand {
-    private static final Logger LOGGER = LogManager.getLogger(LocateCommand.class);
+public class LocationCommand extends BotCommand {
+    private static final Logger LOGGER = LogManager.getLogger(LocationCommand.class);
 
-    public LocateCommand() {
+    public LocationCommand() {
         super("location", "I set/change your location for future work \n");
     }
 
@@ -90,9 +90,6 @@ public class LocateCommand extends BotCommand {
         keyboardFirstRow.add(keyboardButton);
         keyboard.add(keyboardFirstRow);
 
-        // KeyboardRow keyboardSecondRow = new KeyboardRow();
-        // keyboardSecondRow.add(new KeyboardButton("city"));
-        // keyboard.add(keyboardSecondRow);
         replyKeyboardMarkup.setKeyboard(keyboard);
         return replyKeyboardMarkup;
     }

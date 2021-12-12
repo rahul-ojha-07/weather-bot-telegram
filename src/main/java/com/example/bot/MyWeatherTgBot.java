@@ -13,7 +13,7 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import static com.example.bot.commands.BadWeatherCommand.getMessageRemind;
-import static com.example.bot.commands.LocateCommand.location;
+import static com.example.bot.commands.LocationCommand.location;
 import static com.example.bot.commands.WeatherCommand.getMessageWeatherNow;
 
 public class MyWeatherTgBot extends TelegramLongPollingCommandBot {
@@ -39,7 +39,7 @@ public class MyWeatherTgBot extends TelegramLongPollingCommandBot {
         LOGGER.info("Registering '/bad_weather'...");
         register(new BadWeatherCommand());
         LOGGER.info("Registering '/location'...");
-        register(new LocateCommand());
+        register(new LocationCommand());
         LOGGER.info("Registering '/search'...");
         register(new SearchCommand());
 

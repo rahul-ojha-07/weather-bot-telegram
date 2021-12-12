@@ -15,7 +15,7 @@ public class StopCommand extends BotCommand {
     private static final Logger LOGGER = LogManager.getLogger(StartCommand.class);
 
     public StopCommand() {
-        super("stop", "With this command you can stop the Bot\n");
+        super("stop", "With this command you can stop the Bot and delete all user Data\n");
     }
 
     @Override

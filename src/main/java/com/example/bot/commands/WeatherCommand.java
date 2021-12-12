@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.example.bot.commands.BadWeatherCommand.getKeyboardWorseWeather;
-import static com.example.bot.commands.LocateCommand.getKeyboardLoc;
+import static com.example.bot.commands.LocationCommand.getKeyboardLoc;
 
 
 public class WeatherCommand extends BotCommand {
